@@ -1,0 +1,20 @@
+Raw Build 2019-04-01
+--------------------------------------
+AMD FX-8350
+64.89
+Asus ROG-STRIX-GTX1660TI-O6G-GAMING
+323.99
+Corsair Vengeance LPX
+104.99
+ASRock X370 KILLER SLI/ac
+79.99
+Crucial CT250MX500SSD1
+49.85
+Corsair AX1600i
+399.99
+Cooler Master MasterBox Lite 5 RGB
+80.98
+
+
+
+

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainFrame">
+  <grid id="27dc6" binding="JPanel" layout-manager="GridLayoutManager" row-count="12" column-count="12" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1091" height="481"/>
+    </constraints>
+    <properties>
+      <background color="-5194043"/>
+      <enabled value="true"/>
+      <foreground color="-5194043"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f8503" class="javax.swing.JButton" binding="GPUButton">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="GPU"/>
+        </properties>
+      </component>
+      <component id="5853c" class="javax.swing.JButton" binding="memoryButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="RAM"/>
+        </properties>
+      </component>
+      <component id="ffbf8" class="javax.swing.JButton" binding="MotherboardButton">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Motherboard"/>
+        </properties>
+      </component>
+      <component id="5871" class="javax.swing.JButton" binding="hardDriveButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Hard Drive"/>
+        </properties>
+      </component>
+      <component id="7b87a" class="javax.swing.JButton" binding="caseButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Case"/>
+        </properties>
+      </component>
+      <component id="bbf70" class="javax.swing.JButton" binding="powerSupplyButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Power Supply"/>
+        </properties>
+      </component>
+      <scrollpane id="7d26c">
+        <constraints>
+          <grid row="1" column="3" row-span="9" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="300" height="-1"/>
+            <preferred-size width="300" height="-1"/>
+            <maximum-size width="300" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="5556b" class="javax.swing.JList" binding="itemlist">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <hspacer id="cf954">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="2f12e">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="8b880" class="javax.swing.JButton" binding="CPUbutton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="CPU"/>
+        </properties>
+      </component>
+      <scrollpane id="fe128">
+        <constraints>
+          <grid row="5" column="5" row-span="3" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="180" height="90"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d7a14" class="javax.swing.JTextArea" binding="PriceList">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="494ff" class="javax.swing.JTextArea" binding="GPUPrice">
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="1ea12" class="javax.swing.JTextArea" binding="CPUPrice">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4152c" class="javax.swing.JTextArea" binding="RAMPrice">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e756e" class="javax.swing.JTextArea" binding="MoboPrice">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="115d" class="javax.swing.JTextArea" binding="HDPrice">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="82ead" class="javax.swing.JTextArea" binding="PSUPrice">
+        <constraints>
+          <grid row="6" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="db7e5" class="javax.swing.JTextArea" binding="CasePrice">
+        <constraints>
+          <grid row="7" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="f3b88" class="javax.swing.JButton" binding="saveButton">
+        <constraints>
+          <grid row="11" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Save Build"/>
+        </properties>
+      </component>
+      <component id="d3e0e" class="javax.swing.JLabel" binding="Item">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Products"/>
+        </properties>
+      </component>
+      <component id="32909" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CPU"/>
+        </properties>
+      </component>
+      <component id="825fa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="GPU"/>
+        </properties>
+      </component>
+      <component id="946fa" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="RAM"/>
+        </properties>
+      </component>
+      <component id="1d051" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Motherboard"/>
+        </properties>
+      </component>
+      <component id="e8602" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Hard Drive"/>
+        </properties>
+      </component>
+      <component id="abd14" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Power Supply"/>
+        </properties>
+      </component>
+      <component id="ae98" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Case"/>
+        </properties>
+      </component>
+      <component id="83eb2" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Product Name"/>
+        </properties>
+      </component>
+      <component id="1a214" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Price (Lowest)"/>
+        </properties>
+      </component>
+      <component id="cb147" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Product Icon"/>
+        </properties>
+      </component>
+      <scrollpane id="8c138">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <verticalScrollBarPolicy value="20"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5e7f2" class="javax.swing.JTextArea" binding="CPUProductname">
+            <constraints/>
+            <properties>
+              <columns value="0"/>
+              <editable value="false"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="b7231">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <verticalScrollBarPolicy value="20"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="7edb7" class="javax.swing.JTextArea" binding="GPUProductname">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="678c2">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="f0daa" class="javax.swing.JTextArea" binding="RAMProductname">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="e05d9">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="9aad8" class="javax.swing.JTextArea" binding="MoboProductname">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="6f75f">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8f192" class="javax.swing.JTextArea" binding="HDProductname">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="46dea">
+        <constraints>
+          <grid row="6" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e0d2f" class="javax.swing.JTextArea" binding="PSUProductname">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="e4a40">
+        <constraints>
+          <grid row="8" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c86d2" class="javax.swing.JTextArea" binding="MonitorProductname">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="3d527">
+        <constraints>
+          <grid row="9" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f9e5c" class="javax.swing.JTextArea" binding="CoolerProductname">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <enabled value="true"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="74be6">
+        <constraints>
+          <grid row="7" column="8" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f6da5" class="javax.swing.JTextArea" binding="CaseProductname">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <font size="12"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="86941" class="javax.swing.JButton" binding="clearAllButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clear All"/>
+        </properties>
+      </component>
+      <component id="7fb4c" class="javax.swing.JButton" binding="CPUCoolerButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="CPU Cooler"/>
+        </properties>
+      </component>
+      <component id="ba873" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CPU Cooler"/>
+        </properties>
+      </component>
+      <component id="36344" class="javax.swing.JTextArea" binding="MonitorPrice">
+        <constraints>
+          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <component id="c71df" class="javax.swing.JTextArea" binding="CoolerPrice">
+        <constraints>
+          <grid row="9" column="9" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="120" height="38"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+        </properties>
+      </component>
+      <hspacer id="a713d">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="c1345">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="75382" class="javax.swing.JLabel" binding="Cost">
+        <constraints>
+          <grid row="10" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="4d888" class="javax.swing.JLabel" binding="TDP">
+        <constraints>
+          <grid row="10" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8ef3e" class="javax.swing.JButton" binding="monitorButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Monitor"/>
+        </properties>
+      </component>
+      <component id="3cffd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Monitor"/>
+        </properties>
+      </component>
+      <component id="afba5" class="javax.swing.JLabel" binding="ProductPic" custom-create="true">
+        <constraints>
+          <grid row="1" column="5" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7135a" class="javax.swing.JButton" binding="Details">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="125" height="30"/>
+            <preferred-size width="125" height="30"/>
+            <maximum-size width="125" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Product Details"/>
+        </properties>
+      </component>
+      <component id="e0e05" class="javax.swing.JButton" binding="filtersButton">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="125" height="30"/>
+            <preferred-size width="125" height="30"/>
+            <maximum-size width="125" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Filters"/>
+        </properties>
+      </component>
+      <component id="ecda5" class="javax.swing.JButton" binding="AddButton">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="120" height="30"/>
+            <preferred-size width="120" height="30"/>
+            <maximum-size width="120" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="9d1d8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="10" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Retailer Prices"/>
+        </properties>
+      </component>
+      <hspacer id="c8581">
+        <constraints>
+          <grid row="0" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="3c189" class="javax.swing.JButton" binding="cpuRemove">
+        <constraints>
+          <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ef231" class="javax.swing.JButton" binding="gpuRemove">
+        <constraints>
+          <grid row="2" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="827cd" class="javax.swing.JButton" binding="ramRemove">
+        <constraints>
+          <grid row="3" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="96bdc" class="javax.swing.JButton" binding="moboRemove">
+        <constraints>
+          <grid row="4" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="2e6b0" class="javax.swing.JButton" binding="hdRemove">
+        <constraints>
+          <grid row="5" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="27eb4" class="javax.swing.JButton" binding="psuRemove">
+        <constraints>
+          <grid row="6" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="88ff3" class="javax.swing.JButton" binding="caseRemove">
+        <constraints>
+          <grid row="7" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ece2b" class="javax.swing.JButton" binding="moniRemove">
+        <constraints>
+          <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="82c6d" class="javax.swing.JButton" binding="coolerRemove">
+        <constraints>
+          <grid row="9" column="10" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="178d0" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

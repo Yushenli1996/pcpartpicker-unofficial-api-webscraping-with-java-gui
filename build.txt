@@ -1,0 +1,13 @@
+Build "demo" 2019-04-12
+--------------------------------------
+CPU    | Intel Core i7-8700K
+GPU    | Zotac ZT-T20810B-10P
+RAM    | 
+Mobo   | Gigabyte GA-Z270X-UD3
+HD     | 
+PSU    | 
+Case   | 
+Monitor| 
+Cooler | 
+--------------------------------------
+Total Cost:  Est. Cost: $ 2022.88
